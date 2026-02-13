@@ -51,7 +51,7 @@ while True:
     # --- 预览窗口 ---
     
     preview_img = cv2.resize(img_binary, (640, 320), interpolation=cv2.INTER_NEAREST)
-    cv2.imshow("Video2 Player (Bad Apple)", preview_img)
+    cv2.imshow("Video2 Player ", preview_img)
 
     # --- 数据打包与发送 ---
     # 1. 转成 0/1 矩阵
